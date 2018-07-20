@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{width: 1920px; max-width: 100%;}
+.menu{width: 100%;display: inline-flex; align-items: center;justify-content: space-around;padding-left: 100px;padding-right: 100px; background-color: #aecb06;padding-top: 10px;padding-bottom: 10px;}
+.logo-main{cursor: pointer; background: url("./images/logo.png");width: 110px;height: 94px;}
+.menu-text{display: flex;flex-direction: column; align-items: center;justify-content: center;font-size: 40px;font-family: "RobotoSlab";color: rgb(17, 17, 17);font-weight: bold; text-transform: uppercase; line-height: 1.2;}
+.menu-text span{font-size: 18px;font-family: "ProximaNova";color: rgb(0, 0, 0);line-height: 1.2;}
+.logo-rigth{background: url("./images/100_icon.png"); width: 124px;height: 88px;}
+.nav{width: 100%; display: inline-flex;align-items: center;justify-content: space-between;background-color: white;padding-left: 170px;padding-right: 200px;padding-top: 10px;padding-bottom: 10px;}
+.navigation ul{display: inline-flex;align-items: center;justify-content: space-around;}
+.navigation li a {font-size: 16px;font-family: "ProximaNova";color: rgb(17, 17, 17); line-height: 1.5; margin-left: 30px;}
+.pnumber a b{font-size: 22px;font-family: "ProximaNova";color: rgb(17, 17, 17);font-weight: bold;line-height: 1.091;}
+.navigation li a:first-child{margin-left: 0}
+.navigation li{margin-left: 20px;}
+.main-slid{background: url("./images/drova.png");width: 1920px; max-width: 100%;height: 500px;padding-left:200px; padding-top: 120px;}
+.main-slid_text{font-size: 50px;font-family: "RobotoSlab";color: rgb(255, 255, 255);font-weight: bold;line-height: 1.24;position: relative;}
+.main-slid_text::before{content: ""; display: flex;width: 55px; height: 2px; background: #AECB06;position: absolute;left: -100px; top:50px;}
+.main-slid_nav{width: 100%; display: inline-flex; flex-direction: column; justify-content: center; margin-top: 50px;}
+.slid-wrap ul{width: 70%; display: inline-flex; margin-top: 40px;}
+.slid-nav a{font-size: 15px; font-family: "ProximaNova";color: rgba(255, 255, 255, 0.702); text-transform: uppercase;line-height: 1.6; }
+.act{border: 1px solid white; border-radius: 20px;padding: 10px;}
+.slid-wrap li{margin-left: 20px;padding: 11px;}
+.drov-content{width: 100%; display: flex; align-items: center;justify-content: space-around; padding-left: 200px;padding-right: 120px;margin-top: 60px;margin-bottom: 60px;}
+.cont1{align-self: flex-start;display: flex;  background: url("./images/drov1.png");width: 470px; height: 600px;}
+.cont2{display: flex; align-items: center;justify-content: center;flex-direction: column;width: 50%;}
+.cont-tittle{font-size: 36px;font-family: "RobotoSlab";color: rgb(0, 0, 0);font-weight: bold;line-height: 1.222; text-align: left;width: 100%;}
+.cont-tabs{display: inline-flex;width: 100%; align-items: center;justify-content: space-around;margin-top: 30px; margin-bottom: 30px;}
+.tab1, .tab2{font-size: 16px;font-family: "ProximaNova";font-weight: bold;text-transform: uppercase; line-height: 3; position: relative;width: 100%; cursor: pointer;}
+.tab2{color: #999999;}
+.tab1::after{content: ""; width: 100%;height: 2px; background: #999999;position: absolute;left: 0;top:50px;}
+.active::after{content: ""; width: 100%;height: 2px; color: black; background: orange !important;position: absolute;left: 0;top:50px;z-index: 100;}
+.tab2::after{content: ""; width: 100%;height: 2px; background: #999999;position: absolute;left: 0;top:50px;}
+.cont-text1{height: 600px;  font-size: 18px;font-family: "ProximaNova";color: rgb(17, 17, 17);line-height: 1.444;  }
+.cont-text2{height: 600px; display: none;font-size: 18px;font-family: "ProximaNova";color: rgb(17, 17, 17);line-height: 1.444;}
+.tittle-text{font-size: 36px;font-family: "RobotoSlab";color: rgb(0, 0, 0);font-weight: bold;line-height: 1.222;padding-left: 230px;}
+.tittle-text span{color: #AECB06;}
+.info{display: inline-flex;align-items: center;justify-content: space-around;width: 100%; padding-left: 230px;margin-top: 80px;margin-bottom: 40px;padding-right: 200px;}
+.cont-info{ height: 310px; display: flex;align-items: center;justify-content: flex-start;width: 23%;flex-direction: column;}
+.cont-info_tittle{font-size: 20px;font-family: "RobotoSlab";color: rgb(0, 0, 0);font-weight: bold;line-height: 2.2;text-align: left; width: 100%}
+.cont-info_text{font-size: 18px; font-family: "ProximaNova";color: rgb(51, 51, 51);line-height: 1.444;text-align: left;}
+.cont-info img{align-self: flex-start;}
+.default{position: fixed;box-shadow: 0px 7px 47px -7px rgba(0,0,0,0.75);top:0;left: 0;z-index: 100;background: #fffffe}
